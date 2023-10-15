@@ -1,29 +1,12 @@
 @font-face {
-    font-family: DancingScript-Bold;
-    src: url(assets/fonts/DancingScript-Bold.ttf);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: DancingScript-Medium;
-    src: url(assets/fonts/DancingScript-Bold.ttf);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: DancingScript-Regular;
-    src: url(assets/fonts/DancingScript-Bold.ttf);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: DancingScript-SemiBold;
-    src: url(assets/fonts/DancingScript-Bold.ttf);
+    font-family: 'Gabriela';
+    src: url(../fonts/Gabriela\ script.ttf);
     font-weight: 400;
 }
 
 
-.header {
+
+header {
     width: 1280px;
     display: flex;
     align-items: center;
@@ -33,17 +16,18 @@
 }
 
 h1 {
-    font-family: DancingScript-SemiBold;
-    color: #fff;
-    font-size: 35px;
+    font-family: 'Gabriela';
+    color: whitesmoke;
+    font-size: 45px;
 }
 
 .menu_list {
-    font-family: DancingScript-SemiBold;
+    font-family: 'Gabriela';
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: right;
+    font-size: 20px;
 }
 
 .menu_item:not(:last-child) {
