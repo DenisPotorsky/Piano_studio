@@ -4,6 +4,10 @@
     font-weight: 400;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
 
 
 header {
@@ -40,6 +44,12 @@ h1 {
 
 .infa {
     color: #fff;
+}
+
+.requisites {
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .resume2 {
