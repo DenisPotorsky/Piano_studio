@@ -9,7 +9,6 @@
     flex-direction: column;
 }
 
-
 header {
     width: 1280px;
     display: flex;
@@ -23,6 +22,11 @@ h1 {
     font-family: 'Gabriela';
     color: whitesmoke;
     font-size: 45px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu_list {
@@ -48,8 +52,8 @@ h1 {
 
 .requisites {
     display: flex;
-    align-items: center;
-    justify-content: right;
+    /* align-items: center;
+    justify-content: right; */
 }
 
 .resume2 {
