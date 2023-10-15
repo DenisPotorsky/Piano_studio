@@ -49,3 +49,11 @@ h1 {
 .menu_item:not(:last-child) {
     margin-right: 18px;
 }
+
+.resume1 {
+    width: 30%;
+}
+
+.resume2 {
+    width: 30%;
+}
